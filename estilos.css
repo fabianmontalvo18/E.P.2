@@ -1,0 +1,276 @@
+/*Pagin Principal*/
+body{
+    background-color: rgb(245, 235, 220);
+}
+#contenedor{
+    
+    margin: auto;
+    height: 1270px;
+    width: 980px;
+    font-family: "Poetsen One", sans-serif;
+    background-color: rgb(245, 235, 220);
+}
+    
+#menuprincipal{
+    display: flex;
+    justify-content: space-between;
+    
+}
+#menuprincipal ul{
+    display: flex;
+    list-style-type: none;
+    padding-top: 130px;
+    padding-right: 50px;
+}
+#menuprincipal li{
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 40px 40px;
+    margin-left: 10px;
+
+}
+#menuprincipal a{
+    text-decoration: none;
+    color: black;
+    transition: all 300ms ease 200ms;
+}
+#menuprincipal a:hover{
+    color: red;
+
+}
+#menuprincipal img{
+    transform: translate(20px ,30px);
+    height: 180px;
+}
+#contenido1{
+    margin: 30px;
+    
+    display: flex;
+    font-size: 25px;
+}
+#whopper1{
+    margin: 20px;
+    margin-left: 50px;
+}
+#whopper1 button{
+    padding: 15px;
+    font-family:"Poetsen One", sans-serif ;
+    filter: drop-shadow(2px 3px 2px black);
+}
+#contenido2{
+    margin: 30px;
+    
+    display: flex;
+    font-size: 25px;
+}
+#whopper2{
+    margin: 20px;
+    margin-left: 50px;
+}
+#whopper2 button{
+    padding: 15px;
+    font-family:"Poetsen One", sans-serif ;
+    filter: drop-shadow(2px 3px 2px black);
+}
+
+button{
+    border: 1px solid black;
+    border-radius: 40px 40px;
+    color: black;
+    background-color: red;
+}
+#menusecundario{
+    display: flex;
+    justify-content: center;
+    
+    margin: 29px;
+    
+}
+#menusecundario ul{
+    display: flex;
+    list-style-type: none; 
+}
+#menusecundario li{
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 40px 40px;
+    margin-left: 10px;
+}
+#menusecundario a{
+    text-decoration: none;
+    color: black;
+    transition: all 300ms ease 200ms;
+}
+#menusecundario a:hover{
+    color: red;
+}
+#pie{
+    margin: 30px;
+    
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+#pie img{
+    
+    height: 100px;
+}
+.fa-brands {
+    color: red;
+    font-size: 30px;
+}
+#pie p{
+    margin-top: 10px;
+    
+}
+/*Pagina del Menu de Productos*/
+#contenedor2{
+    
+    margin: auto;
+    height: 1270px;
+    width: 980px;
+    font-family: "Poetsen One", sans-serif;
+    background-color: rgb(245, 235, 220);
+}
+#menuprincipal2{
+    display: flex;
+    justify-content: space-between;
+    
+}
+#menuprincipal2 ul{
+    display: flex;
+    list-style-type: none;
+    padding-top: 130px;
+    padding-right: 50px;
+}
+#menuprincipal2 li{
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 40px 40px;
+    margin-left: 10px;
+
+}
+#menuprincipal2 a{
+    text-decoration: none;
+    color: black;
+    transition: all 300ms ease 200ms;
+}
+#menuprincipal2 a:hover{
+    color: red;
+
+}
+#menuprincipal2 img{
+    transform: translate(20px ,30px);
+    height: 180px;
+}
+
+#barradeproductos{
+    border: 1px solid black;
+    font-size: 15px;
+    height: 700px;
+    padding: 15px;
+    
+}
+#barradeproductos ul li{
+    list-style-type: none;
+    
+}
+#barradeproductos a{
+    text-decoration: none;
+    color: black;
+}
+#barradeproductos a:hover{
+    color: red;
+    transition: all 300ms ease 200ms;
+}
+#menu2{
+    border: 1px solid black;
+    height: 730px;
+    margin-left: 20px;
+    padding-left: 20px;
+}
+
+#productos1 img{
+    
+    float: left;
+}
+#productos1{
+    
+    
+    display: flex;
+    padding-top: 50px;
+}
+#productos2 img{
+    
+    float: left;
+}
+#productos2{
+    display: flex;
+    
+    padding-top: 50px;
+}
+#productos2 p{
+    padding-top: 30px;
+}
+#productos3{
+    display: flex;
+    
+    padding-top: 50px;
+}
+#productos3 img{
+    float: left;
+}
+#productos3 p{
+    padding-top: 50px;
+}
+#menusecundario2{
+    display: flex;
+    justify-content: center;
+    
+    margin: 29px;
+    
+}
+#menusecundario2 ul{
+    display: flex;
+    list-style-type: none; 
+}
+#menusecundario2 li{
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 40px 40px;
+    margin-left: 10px;
+}
+#menusecundario2 a{
+    text-decoration: none;
+    color: black;
+    transition: all 300ms ease 200ms;
+}
+#menusecundario2 a:hover{
+    color: red;
+}
+#pie2{
+    margin: 30px;
+    
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+#pie2 img{
+    
+    height: 100px;
+}
+.fa-brands {
+    color: red;
+    font-size: 30px;
+}
+#pie2 p{
+    margin-top: 10px;
+    
+}
+
+
+
+
+
